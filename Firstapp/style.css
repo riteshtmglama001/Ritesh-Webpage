@@ -2,6 +2,7 @@ body{
     padding: 0;
     margin: 0;
     background-color: #14213d;
+
 }
  .navbar{
     background-color: #023047;
@@ -19,62 +20,249 @@ body{
  }
  .par:hover{
 color: #0063ff;
+scale: 1.09;
+  
  }
  .full{
-    margin: 100px 0 0 90px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+   width: 100%;
+   height:80vh;
  }
- .head{
-    font-weight: 700;
-    font-size: 30px;
-    color: white;
- }
- .para{
-    color: white;
-    font-size: 18px;
-    margin: -20px 0 0 0;
+ .heroside{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: white;
+   width: 80vw;
+   height: 80vh;
+   margin: 20px 0 10px 200px;
+   /* margin: 70px 0 70px 0 ; */
  }
  
  .span{
-    color: #22c379;
+color: aquamarine;
  }
  .btn{
-    display: flex;
-    gap: 1rem;
-  margin: 45px 0;
-  
-
+   display: flex;
+   gap: 1rem;
+   margin-top: 70px;
  }
  .btn1{
-    padding: 12px;
-    border: none;
-    border-radius: 4px;
-    font-weight: 700;
-  background-color: #0063ff;
-  color: white;    
+   padding: 12px;
+   background-color: #0063ff;
+   color: white;
+   border: none;
+   border-radius: 2px;
  }
  .btn2{
-    padding: 12px;
-    border: none;
-    border-radius: 4px;
-  background-color: #333354;
-  color: white;    
- }
- .btn1:hover{
-    background-color: white;
-    color: black;
+   padding: 12px;
+   background-color: white; 
+   border: none;
+   border-radius: 2px;
  }
  .btn2:hover{
-    background-color: #0063ff;
+   background-color: #0063ff;
+   color: white;
+ }
+ .btn1:hover{
+   background-color: white;
+   color: black;
  }
 .p1{
-    color: #a66110;
-    margin: -20px 0 0 0;
+   color: orange;
+   text-align:left;
+   font-size: 20px;
 
 }
-.video{
+.heading{
+   font-size: 50px;
+}
+.pa{
+   text-align:left;
+   font-size: 20px;
+  
+}
+.vid{
+ object-fit: cover;
+ position:relative;
+ background-image: none;
+}
 
-    margin: 100px 0 0 90px;
+ .video1{
+   position:absolute;
+  bottom: 0;
+  left: 0;
+   z-index: -1;
+} 
+.text_section{
+  color: white;
+  text-align: center;
+  width: 75vw;
+  margin: auto;
+
+ 
+}
+.text-side{
+  margin-top: 70px;
+
+}
+
+.text_section p{
+  font-size: 15px;
+}
+.text_area{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 150px;
+ 
+}
+.box_area{
+  background-color: white;
+  margin-top: 150px;
+
+}
+.box_section{
+  text-align: center;
+  width: 85vw;
+  margin: auto;
+}
+.box_section #h1 {
+  font-size: 40px;
+  opacity: 80%;
+  line-height: 4rem;
+}
+
+.items{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 100px;
+
+}
+.items h2{
+  font-size: 40px;
+   font-weight: 700;
+   opacity: 80%;
+}
+ .p1{
+  font-size: 15px;
+   font-weight: 400;
+   color: black;
+   opacity: 60%;
+   text-align: center;
+}
+.item1{
+  background-color: #f2f9f4;
+  border-radius: 4px;
+  padding: 12px;
+}
+.item01{
+  display: flex;
+  justify-content: space-between;
+  width: 20vw;
+  margin: auto;
+}
+.box1{
+  display: flex;
+  justify-content: space-between;
+  width: 10vw;
+  margin: auto;
+  gap: 1rem;
+}
+.item02 p{
+  color: #3ca8ce;
+  font-size: 20px;
+  font-weight: 600;
+
+  
+}
+ .btn01{
+  background-color: #1181e1;
+color: white;
+  padding: 12px;
+  width: 350px;
+  border: none;
+  border-radius: 2px;
+}
+.btn002{
+  background-color: #1181e1;
+color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 2px;
+  width: 350px;
+}
+.item2{
+  background-color: #1050bd;
+  color: white;
+  border-radius: 4px;
+  padding: 15px;
+  margin: -15px 0;
+  text-align: center;
+  width: 350px;
+}
+.item2 p{
+  color: white;
+}
+.item2.para_1{
+  color: white;
+}
+.item3{
+  background-color: #f2f9f4;
+  border-radius: 4px;
+  padding: 12px;
+  width: 400px;
+}
+.box2{
+  display: flex;
+  justify-content: space-between;
+  width: 10vw;
+  margin: auto;
+  gap: 1rem;
+}
+.btn03{
+  background-color: white;
+color: black;
+  padding: 12px;
+  width: 350px;
+  border: none;
+  border-radius: 2px;
+}
+.btn04{
+  background-color: white;
+color: black;
+  padding: 12px;
+  border: none;
+  border-radius: 2px;
+  width: 350px;
+}
+.feet{
+  margin-top: 150px;
+  font-size: 20px;
+}
+._head h1{
+  font-size: 50px;
+}
+._head p{
+  font-size: 20px;
+  text-align: center;
+}
+._head span{
+  font-size: 25px;
+  text-decoration: underline;
+  text-align: center;
+}
+.box_section #button{
+  padding: 15px;
+  margin: 20px;
+  border: none;
+  background-color: #1050bd;
+  color: white;
+  border-radius: 4px;
+}
+.box_section #button:hover{
+ 
+  background-color:#0063ff;
+  color: white;
 }
