@@ -1,0 +1,38 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #14213d;
+
+}
+ .navbar{
+    background-color: #023047;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+ }
+ .snav{
+   display: flex;
+   gap: 20px;
+   font-size: 17px;
+   font-weight: 400;
+ }
+ .par:hover{
+color: #0063ff;
+scale: 1.09;
+  
+ }
+ .full{
+   width: 100%;
+   height:80vh;
+ }
+ a{
+    text-decoration: none;
+ }
+.par{
+    color: white;
+}
+ /* .snav a{
+  
+ } */
