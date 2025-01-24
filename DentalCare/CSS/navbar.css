@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main_navbar{
+    background-color: rgba(226, 228, 230, 0.804);
+    z-index: 999;
+    /* position: fixed; */
+    width: 100%;
+}
+.navbar_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw!important;
+    margin: auto!important;
+
+    
+}
+.navbar_element1{
+    display: flex;
+    align-items: center;
+    color: rgb(186, 32, 186);
+}
+.navbar_element1 h1{
+    font-size: 40px;
+    opacity: 70%;
+    color: black;
+}
+.navbar_element2{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.navbar_element2 a{
+    text-decoration: none;
+    color: black;
+}
+.navbar_element2 svg{
+    color: rgb(176, 20, 176);
+}
+.navbar_element2 button{
+    background-color: rgb(180, 17, 180);
+    color: white;
+    padding: 16px;
+border: none;
+border-radius: 12px;
+}

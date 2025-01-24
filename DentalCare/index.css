@@ -1,0 +1,136 @@
+.parent_area {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+/* .hero_section {
+  width: 100%;
+  height: 50vh;
+  /* height: 70vh; */
+  /* position: relative; */
+  /* background-color: black; */
+  /* padding-top: 120px; */
+/* } */ */
+
+.hero_section video {
+  position: absolute;
+  object-fit: cover;
+  bottom: 0;
+  z-index: -999;
+  width: 100vw;
+  margin: auto;
+}
+
+.hero_element {
+  position: absolute;
+  width: 40%;
+  height: 30vh;
+  background-color: white !important;
+  bottom: 30vh;
+  left: 10vw;
+  opacity: 80%;
+  padding: 40px;
+}
+
+.hero_element p {
+  font-size: 17px;
+  color: rgb(186, 32, 186);
+  opacity: 100% !important;
+}
+.hero_element h1 {
+  font-size: 27px;
+  color: black;
+  opacity: 100% !important;
+}
+.hero_element button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 9vw;
+  margin: 10vh 0;
+  padding: 12px;
+  font-size: 15px;
+  background-color: rgb(186, 32, 186);
+  color: white;
+  opacity: 100% !important;
+  border: none;
+  border-radius: 12px;
+}
+.teeth_category{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20vh !important;
+  width: 80vw;
+  margin: auto;
+}
+.teeth_category svg{
+  color: rgb(186, 32, 186);
+}
+.teeth_category svg:hover{
+  color: rgb(149, 19, 149);
+  scale: 1.2;
+  transition-duration: 700ms;
+}
+.teeth_category h3{
+  font-size: 30px;
+  opacity: 70%;
+}
+.teeth_category p{
+  font-size: 17px;
+  opacity: 60%;
+}
+.teeth_category div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.parent_area2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  margin: auto;
+  margin-top: 70px;
+}
+.parent_area2 h2{
+  font-size: 40px;
+  opacity: 80%;
+}
+.parent_area2 span{
+  text-align: center;
+  font-size: 20px;
+  /* line-height: 2.5rem; */
+  opacity: 70%;
+  color: rgb(142, 60, 218);
+}
+.parent_area2 p{
+  text-align: center;
+  font-size: 20px;
+  line-height: 2.5rem;
+  opacity: 70%;
+}
+.image_section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+  height: 80vh;
+}
+.image_section p{
+color:  rgb(186, 32, 186);
+}
+.image_section div{
+  border: 1px solid rgb(211, 198, 198);
+}
+.image_section div:hover{
+  scale: 0.979;
+  transition-duration: 700ms;
+}
