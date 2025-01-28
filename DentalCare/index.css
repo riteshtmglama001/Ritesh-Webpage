@@ -139,10 +139,11 @@ margin-top: 25px;
 }
 .field_image{
   background-color: rgb(239, 235, 235);
-  /* gap: 2rem; */
-  /* position:relative;
-  background-image: url("./Image/img2.jpg");
-  background-repeat: no-repeat; */
+  /* background-image: url("./Image/img2.jpg"); */
+  background-repeat: no-repeat;
+  
+
+
   
 
 }
@@ -238,6 +239,7 @@ margin-top: 50px;
 }
 .vl{
   border-right: 1px solid rgb(201, 199, 199);
+
   /* border-bottom: 1px solid white; */
   height:60vh;
 }
